@@ -14,6 +14,6 @@ public class exercise5{
         int b = scanner.nextInt();
 
         int sum = calculateSum (a , b);
-        System.out.println("The sum of two number is: " + sum);
-    }
+        System.out.println("The sum of two number is: " + sum); 
+      }
     }

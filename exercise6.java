@@ -9,7 +9,7 @@ public class exercise6{
         String[] names = new String[size];
 
         // input
-        for (int i = 0; i < size; i++){
+        for (int i = 0; i < size; i++) {
             names[i] = sc.next();
         }
         //output
@@ -17,4 +17,4 @@ public class exercise6{
             System.out.println("name" + (i+1) + "is" + names[i]);
         }
     }
-}
+} 

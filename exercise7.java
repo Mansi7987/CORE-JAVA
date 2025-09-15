@@ -9,7 +9,6 @@ public class exercise7{
     int numbers [] = new int [size];
 
     //input 
-
     for(int i = 0; i<size; i++) {
         numbers[i] = sc.nextInt();
     }

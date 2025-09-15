@@ -4,14 +4,16 @@ int b/w 1 and 7 and it helps to display weekend name. */
 import java.util.*;
 public class exercise3 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int day = in.nextInt();
+        System.out.print("Enter Day number: ");
+        Scanner sc = new Scanner(System.in);
+        int day = sc.nextInt();
         System.out.print(getdayname(day));
     }
 
     public static String getdayname(int day) {
-        String dayname =  "";
+        String dayname =  " ";
         switch (day) {
+    
             case 1:
                 dayname = "Sunday";
                 break;
